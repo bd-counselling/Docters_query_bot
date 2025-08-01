@@ -16,4 +16,4 @@ services:
         value: "@CBAtechsupport"
       - key: ADMIN_SALES
         value: "@Anushkaahuja18"
-pythonVersion: 3.11.9
+pythonVersion: 3.10.13
