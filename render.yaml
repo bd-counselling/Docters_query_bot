@@ -6,6 +6,8 @@ services:
     startCommand: python main.py
     plan: free
     envVars:
+        key: PYTHON_VERSION
+        value: 3.11.9
       - key: BOT_TOKEN
         value: 8299114252:AAG1vtdobSPGI5wL57T1brOatb8di6_rbrc
       - key: ADMIN_BASIC
@@ -14,4 +16,4 @@ services:
         value: "@CBAtechsupport"
       - key: ADMIN_SALES
         value: "@Anushkaahuja18"
- pythonVersion: 3.11.9
+pythonVersion: 3.11.9
