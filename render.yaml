@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: docters-query-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    plan: free
+    envVars:
+      - key: BOT_TOKEN
+        value: 8299114252:AAG1vtdobSPGI5wL57T1brOatb8di6_rbrc
+      - key: ADMIN_BASIC
+        value: "@CerebellumOps"
+      - key: ADMIN_TECH
+        value: "@CBAtechsupport"
+      - key: ADMIN_SALES
+        value: "@Anushkaahuja18"
+ pythonVersion: 3.11.9
