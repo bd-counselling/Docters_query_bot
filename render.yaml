@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: docters-query-bot
+    env: python
+    plan: free
+    branch: main
+    buildCommand: ""
+    startCommand: "python main.py"
+    envVars:
+      - key: 8299114252:AAG1vtdobSPGI5wL57T1brOatb8di6_rbrc
+        sync: false
